@@ -1,0 +1,10 @@
+^D:\DOCUMENT\GITHUB\SCREENCAPTURE\BUILD\CMAKEFILES\2343B2CE1B20026E96BEC64CD89E3763\GENERATE.STAMP.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -SD:/document/GitHub/ScreenCapture -BD:/document/GitHub/ScreenCapture/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/document/GitHub/ScreenCapture/build/ek8655.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

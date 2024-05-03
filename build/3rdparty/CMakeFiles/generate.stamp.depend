@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/mingw64/share/cmake-3.27/Modules/ExternalProject/shared_internal_commands.cmake
+C:/mingw64/share/cmake-3.27/Modules/FetchContent.cmake
+D:/document/GitHub/ScreenCapture/3rdparty/CMakeLists.txt
+D:/document/GitHub/ScreenCapture/build/CMakeFiles/cmake.verify_globs

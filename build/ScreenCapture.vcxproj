@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{493579CA-2B5D-35AA-93D9-21418E599408}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ScreenCapture</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\document\GitHub\ScreenCapture\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ScreenCapture.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ScreenCapture</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\document\GitHub\ScreenCapture\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ScreenCapture.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ScreenCapture</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\document\GitHub\ScreenCapture\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ScreenCapture.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ScreenCapture</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\document\GitHub\ScreenCapture\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ScreenCapture.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ScreenCapture</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Zc:__cplusplus /Zc:char8_t-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819;4244;4267;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>3rdparty\imgui\Debug\IMGUI_LIB.lib;3rdparty\implot\Debug\IMPLOT_LIB.lib;3rdparty\glfw\src\Debug\glfw3.lib;3rdparty\glad\Debug\glad.lib;opengl32.lib;glu32.lib;3rdparty\imgui\Debug\IMGUI_LIB.lib;3rdparty\glfw\src\Debug\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/document/GitHub/ScreenCapture/build/Debug/ScreenCapture.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/document/GitHub/ScreenCapture/build/Debug/ScreenCapture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Zc:__cplusplus /Zc:char8_t-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819;4244;4267;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>3rdparty\imgui\Release\IMGUI_LIB.lib;3rdparty\implot\Release\IMPLOT_LIB.lib;3rdparty\glfw\src\Release\glfw3.lib;3rdparty\glad\Release\glad.lib;opengl32.lib;glu32.lib;3rdparty\imgui\Release\IMGUI_LIB.lib;3rdparty\glfw\src\Release\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/document/GitHub/ScreenCapture/build/Release/ScreenCapture.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/document/GitHub/ScreenCapture/build/Release/ScreenCapture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Zc:__cplusplus /Zc:char8_t-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819;4244;4267;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>3rdparty\imgui\MinSizeRel\IMGUI_LIB.lib;3rdparty\implot\MinSizeRel\IMPLOT_LIB.lib;3rdparty\glfw\src\MinSizeRel\glfw3.lib;3rdparty\glad\MinSizeRel\glad.lib;opengl32.lib;glu32.lib;3rdparty\imgui\MinSizeRel\IMGUI_LIB.lib;3rdparty\glfw\src\MinSizeRel\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/document/GitHub/ScreenCapture/build/MinSizeRel/ScreenCapture.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/document/GitHub/ScreenCapture/build/MinSizeRel/ScreenCapture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Zc:__cplusplus /Zc:char8_t-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4244;4267;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\document\GitHub\ScreenCapture\include\header;D:\document\GitHub\ScreenCapture\3rdparty\imgui;D:\document\GitHub\ScreenCapture\3rdparty\implot;D:\document\GitHub\ScreenCapture\3rdparty\glfw\include;D:\document\GitHub\ScreenCapture\3rdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>3rdparty\imgui\RelWithDebInfo\IMGUI_LIB.lib;3rdparty\implot\RelWithDebInfo\IMPLOT_LIB.lib;3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;3rdparty\glad\RelWithDebInfo\glad.lib;opengl32.lib;glu32.lib;3rdparty\imgui\RelWithDebInfo\IMGUI_LIB.lib;3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/document/GitHub/ScreenCapture/build/RelWithDebInfo/ScreenCapture.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/document/GitHub/ScreenCapture/build/RelWithDebInfo/ScreenCapture.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\document\GitHub\ScreenCapture\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/document/GitHub/ScreenCapture/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SD:/document/GitHub/ScreenCapture -BD:/document/GitHub/ScreenCapture/build --check-stamp-file D:/document/GitHub/ScreenCapture/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeSystem.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\document\GitHub\ScreenCapture\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/document/GitHub/ScreenCapture/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SD:/document/GitHub/ScreenCapture -BD:/document/GitHub/ScreenCapture/build --check-stamp-file D:/document/GitHub/ScreenCapture/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeSystem.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\document\GitHub\ScreenCapture\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/document/GitHub/ScreenCapture/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SD:/document/GitHub/ScreenCapture -BD:/document/GitHub/ScreenCapture/build --check-stamp-file D:/document/GitHub/ScreenCapture/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeSystem.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\document\GitHub\ScreenCapture\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/document/GitHub/ScreenCapture/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SD:/document/GitHub/ScreenCapture -BD:/document/GitHub/ScreenCapture/build --check-stamp-file D:/document/GitHub/ScreenCapture/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeCXXCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeRCCompiler.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\3.27.2\CMakeSystem.cmake;D:\document\GitHub\ScreenCapture\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\document\GitHub\ScreenCapture\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\document\GitHub\ScreenCapture\include\src\showHandler.cpp" />
+    <ClCompile Include="D:\document\GitHub\ScreenCapture\include\src\showScreen.cpp" />
+    <ClCompile Include="D:\document\GitHub\ScreenCapture\src\ScreenCapture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\document\GitHub\ScreenCapture\build\ZERO_CHECK.vcxproj">
+      <Project>{90471236-A1AE-3646-8D28-A1C31CD634B5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\document\GitHub\ScreenCapture\build\3rdparty\imgui\IMGUI_LIB.vcxproj">
+      <Project>{CA8FB1CF-FD8A-37DB-BDD8-42CD80750FA5}</Project>
+      <Name>IMGUI_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\document\GitHub\ScreenCapture\build\3rdparty\implot\IMPLOT_LIB.vcxproj">
+      <Project>{B5055647-6784-3546-96B5-3FC259B5B02E}</Project>
+      <Name>IMPLOT_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\document\GitHub\ScreenCapture\build\3rdparty\glad\glad.vcxproj">
+      <Project>{A5E4C133-0EE8-303A-B7BE-1AA883152D25}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\document\GitHub\ScreenCapture\build\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{92F7AF68-44DA-3A7C-B7CB-8920E33B209D}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

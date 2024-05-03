@@ -1,0 +1,1048 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "3rdparty",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty-Debug-e45d68a7373b05a7736e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rdparty"
+				},
+				{
+					"build" : "3rdparty/glfw",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw-Debug-54f18e94622975e66043.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw.src-Debug-0652748a9c73db02a995.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/docs",
+					"jsonFile" : "directory-3rdparty.glfw.docs-Debug-95ef2a450c4220c65528.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/docs"
+				},
+				{
+					"build" : "3rdparty/glad",
+					"jsonFile" : "directory-3rdparty.glad-Debug-c55214007c3c9a7aad44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/glad",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "3rdparty/imgui",
+					"jsonFile" : "directory-3rdparty.imgui-Debug-1ded9454aeb6beae833c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/imgui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3rdparty/implot",
+					"jsonFile" : "directory-3rdparty.implot-Debug-b7554f6864d9d4341ac1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/implot",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "ScreenCapture",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-9d5bfc203cc8198c1182.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-ALL_BUILD-Debug-9f1102fc1d763b46d91d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "IMGUI_LIB::@f601288259c18aa88558",
+					"jsonFile" : "target-IMGUI_LIB-Debug-d25a10c81a7bbd635581.json",
+					"name" : "IMGUI_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "IMPLOT_LIB::@3dbd7ca0e52cf278f62f",
+					"jsonFile" : "target-IMPLOT_LIB-Debug-bac1f197a40975b28b94.json",
+					"name" : "IMPLOT_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenCapture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenCapture-Debug-c82ebd8ad26e249d4164.json",
+					"name" : "ScreenCapture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-976c8ccd4d5aa6dd211d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glad::@6763ee47eb2ecea1d883",
+					"jsonFile" : "target-glad-Debug-f96879e1771383bb0699.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-glfw-Debug-ceac82404b946e24f7c2.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-uninstall-Debug-81b67edc39082778d07e.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-update_mappings-Debug-96a37238d05c2bb70a1a.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "3rdparty",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty-Release-e45d68a7373b05a7736e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rdparty"
+				},
+				{
+					"build" : "3rdparty/glfw",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw-Release-54f18e94622975e66043.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw.src-Release-a0591c81895362096057.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/docs",
+					"jsonFile" : "directory-3rdparty.glfw.docs-Release-95ef2a450c4220c65528.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/docs"
+				},
+				{
+					"build" : "3rdparty/glad",
+					"jsonFile" : "directory-3rdparty.glad-Release-c55214007c3c9a7aad44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/glad",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "3rdparty/imgui",
+					"jsonFile" : "directory-3rdparty.imgui-Release-1ded9454aeb6beae833c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/imgui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3rdparty/implot",
+					"jsonFile" : "directory-3rdparty.implot-Release-b7554f6864d9d4341ac1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/implot",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "ScreenCapture",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-9d5bfc203cc8198c1182.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-ALL_BUILD-Release-9f1102fc1d763b46d91d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "IMGUI_LIB::@f601288259c18aa88558",
+					"jsonFile" : "target-IMGUI_LIB-Release-544059f67646390d4e54.json",
+					"name" : "IMGUI_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "IMPLOT_LIB::@3dbd7ca0e52cf278f62f",
+					"jsonFile" : "target-IMPLOT_LIB-Release-4bd28edca0856064e969.json",
+					"name" : "IMPLOT_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenCapture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenCapture-Release-1e82e3c6120dc00e4ac0.json",
+					"name" : "ScreenCapture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-976c8ccd4d5aa6dd211d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glad::@6763ee47eb2ecea1d883",
+					"jsonFile" : "target-glad-Release-50499e53873736cdc798.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-glfw-Release-c83c1f8ccd5e82cdbdd4.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-uninstall-Release-81b67edc39082778d07e.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-update_mappings-Release-96a37238d05c2bb70a1a.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "3rdparty",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty-MinSizeRel-e45d68a7373b05a7736e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rdparty"
+				},
+				{
+					"build" : "3rdparty/glfw",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw-MinSizeRel-54f18e94622975e66043.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw.src-MinSizeRel-ba0cde0e582a69377cd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/docs",
+					"jsonFile" : "directory-3rdparty.glfw.docs-MinSizeRel-95ef2a450c4220c65528.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/docs"
+				},
+				{
+					"build" : "3rdparty/glad",
+					"jsonFile" : "directory-3rdparty.glad-MinSizeRel-c55214007c3c9a7aad44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/glad",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "3rdparty/imgui",
+					"jsonFile" : "directory-3rdparty.imgui-MinSizeRel-1ded9454aeb6beae833c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/imgui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3rdparty/implot",
+					"jsonFile" : "directory-3rdparty.implot-MinSizeRel-b7554f6864d9d4341ac1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/implot",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "ScreenCapture",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9d5bfc203cc8198c1182.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9f1102fc1d763b46d91d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "IMGUI_LIB::@f601288259c18aa88558",
+					"jsonFile" : "target-IMGUI_LIB-MinSizeRel-952c49d2139c7f9708cc.json",
+					"name" : "IMGUI_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "IMPLOT_LIB::@3dbd7ca0e52cf278f62f",
+					"jsonFile" : "target-IMPLOT_LIB-MinSizeRel-4c20265faffeeba2cffe.json",
+					"name" : "IMPLOT_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenCapture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenCapture-MinSizeRel-411b659fa6f8102cdf9d.json",
+					"name" : "ScreenCapture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-976c8ccd4d5aa6dd211d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glad::@6763ee47eb2ecea1d883",
+					"jsonFile" : "target-glad-MinSizeRel-f7533beffdff6683062a.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-glfw-MinSizeRel-0a8b20812ee9cbdb6ec1.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-uninstall-MinSizeRel-81b67edc39082778d07e.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-update_mappings-MinSizeRel-96a37238d05c2bb70a1a.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "3rdparty",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty-RelWithDebInfo-e45d68a7373b05a7736e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rdparty"
+				},
+				{
+					"build" : "3rdparty/glfw",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw-RelWithDebInfo-54f18e94622975e66043.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.glfw.src-RelWithDebInfo-6f5db7547565bd10be08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						7,
+						9
+					]
+				},
+				{
+					"build" : "3rdparty/glfw/docs",
+					"jsonFile" : "directory-3rdparty.glfw.docs-RelWithDebInfo-95ef2a450c4220c65528.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rdparty/glfw/docs"
+				},
+				{
+					"build" : "3rdparty/glad",
+					"jsonFile" : "directory-3rdparty.glad-RelWithDebInfo-c55214007c3c9a7aad44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/glad",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "3rdparty/imgui",
+					"jsonFile" : "directory-3rdparty.imgui-RelWithDebInfo-1ded9454aeb6beae833c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/imgui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3rdparty/implot",
+					"jsonFile" : "directory-3rdparty.implot-RelWithDebInfo-b7554f6864d9d4341ac1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rdparty/implot",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7
+					],
+					"name" : "ScreenCapture",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9d5bfc203cc8198c1182.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9f1102fc1d763b46d91d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "IMGUI_LIB::@f601288259c18aa88558",
+					"jsonFile" : "target-IMGUI_LIB-RelWithDebInfo-7854c452581c79723eac.json",
+					"name" : "IMGUI_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "IMPLOT_LIB::@3dbd7ca0e52cf278f62f",
+					"jsonFile" : "target-IMPLOT_LIB-RelWithDebInfo-9631fa2d8c84204d39b2.json",
+					"name" : "IMPLOT_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenCapture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenCapture-RelWithDebInfo-336d20cdde54c8108155.json",
+					"name" : "ScreenCapture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-976c8ccd4d5aa6dd211d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glad::@6763ee47eb2ecea1d883",
+					"jsonFile" : "target-glad-RelWithDebInfo-2b0ae36d3b08158ec7b5.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-glfw-RelWithDebInfo-02a33aaf6c4b3456187a.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@ff2e646a4fe6d3da8d4c",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-81b67edc39082778d07e.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@0aa6f7fc354a61a17aaf",
+					"jsonFile" : "target-update_mappings-RelWithDebInfo-96a37238d05c2bb70a1a.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/document/GitHub/ScreenCapture/build",
+		"source" : "D:/document/GitHub/ScreenCapture"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/mingw64/share/cmake-3.27/Modules/FindDoxygen.cmake
+C:/mingw64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/mingw64/share/cmake-3.27/Modules/FindPackageMessage.cmake
+D:/document/GitHub/ScreenCapture/3rdparty/glfw/docs/CMakeLists.txt
+D:/document/GitHub/ScreenCapture/build/CMakeFiles/cmake.verify_globs

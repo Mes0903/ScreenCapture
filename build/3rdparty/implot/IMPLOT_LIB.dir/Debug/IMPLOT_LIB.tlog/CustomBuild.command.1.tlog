@@ -1,0 +1,10 @@
+^D:\DOCUMENT\GITHUB\SCREENCAPTURE\3RDPARTY\IMPLOT\CMAKELISTS.TXT
+setlocal
+C:\mingw64\bin\cmake.exe -SD:/document/GitHub/ScreenCapture -BD:/document/GitHub/ScreenCapture/build --check-stamp-file D:/document/GitHub/ScreenCapture/build/3rdparty/implot/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
